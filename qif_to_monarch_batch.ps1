@@ -219,7 +219,7 @@ foreach ($p in $qifFiles) {
 
 # Generate import tag with current date
 $dateStr = Get-Date -Format "ddMMyyyy"
-$importTag = "<imported on $dateStr>"
+$importTag = "imported on $dateStr"
 
 foreach ($qif in $uniqueQifFiles) {
     $accountGuess = $qif.BaseName

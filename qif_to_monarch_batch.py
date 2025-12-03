@@ -195,7 +195,7 @@ def main():
 
     # Generate import tag with current date
     date_str = datetime.now().strftime("%d%m%Y")
-    import_tag = f"<imported on {date_str}>"
+    import_tag = f"imported on {date_str}"
 
     for qif in unique_qif_files:
         # Guess account name from filename (edit to taste or set to "")
